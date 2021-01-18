@@ -2360,3 +2360,19 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
+.fa-li{
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  display: inline;
+  position: absolute;
+  left: -9px;
+}
+.fired{
+  left: -25px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  display: inline;
+  position: absolute;
+}
