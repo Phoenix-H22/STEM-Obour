@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
 body {
   font-family: 'Viga', sans-serif;
     color: #444;
@@ -2278,6 +2281,8 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  font-family: 'Viga', sans-serif;
+
 }
 
 #footer .footer-top .social-links a:hover {
