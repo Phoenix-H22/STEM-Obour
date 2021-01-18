@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -27,33 +31,83 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
   <!-- ======= Header ======= -->
   <header style="padding: 0;" id="header" class="fixed-top header-transparent">
-    <div style="margin-top: 20px;" class="container">
+   <!-- <div style="" class="container">
 
-      <div class="logo float-left">
+       <div class="logo float-left">
         <a style="display: inline;" href="index.html"><img style="display: inline;" src="assets/img/favicon.png" alt="" class="img-fluid"></a>
-        <h1 style="display: inline;" class="text-light"><a style="display: inline; margin-top: 10px;" href="index.html"><span>STEM OBOUR</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
+        <h1 style="display: inline; margin-top: 100px;" class="text-light"><a style="display: inline; margin-top: 100px;" href="index.html"><span style="display: inline; margin-top: 100px;">STEM OBOUR</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo 
         
+      </div> -->
+      <nav class="navbar navbar-expand-lg d-none d-lg-block">
+         <div style="display: inline;" class="collapse float-left navbar-collapse" id="navbarSupportedContent">
+        <a class="navbar-brand float-left" href="index.html"><img width="90" height="80" src="assets/img/favicon.png" alt="" class="img-fluid"></a>
+        <h1 style="margin-top: 20px; color: white;font-size: 2.5rem;" class="navbar-brand"><a href="index.html"><span>STEM OBOUR</span></a></h1>
       </div>
-
-      <nav class="nav-menu float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
+      <div style="margin-top: 22px; font-size: 60px;" class="float-right" >
+        <ul class="nav-menu navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class='nav-link' href='index.html'>Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a style="color: black;" class='dropdown-item' href='about/index.html'><i class="fas fa-school"></i> Overview</a>
+              <a style="color: black;" class='dropdown-item' href='about/history.html'><i class="fas fa-history fa-fw"></i> History</a>
+              <a style="color: black;" class='dropdown-item' href='about/staff.html'><i class="fas fa-users fa-fw"></i> Staff</a>
+              <a style="color: black;" class='dropdown-item' href='about/vision-and-mission.html'><i class="far fa-list-alt fa-fw"></i> Vision and Mission</a>
+              <a style="color: black;" class='dropdown-item' href='about/targeted-students.html'><i class="fas fa-crosshairs fa-fw"></i> Targeted Students</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class='nav-link' href='campus.html'>Campus</a>
+          </li>
+          <li class="nav-item">
+            <a class='nav-link' href='academics.html'>Academics</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Extracurriculars
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a style="color: black;" class='dropdown-item' href='competitions.html'><i class="fas fa-robot fa-fw"></i> Competitions</a>
+              <a class='dropdown-item' style="color: black;" href='exchange.html'><i class="fas fa-plane-departure fa-fw"></i> Exchange Programs</a>
+              <a class='dropdown-item' href='teams.html' style="color: black;"><i class="fas fa-cubes fa-fw"></i> Teams and Clubs</a>
+              <a style="color: black;" class='dropdown-item' href='events.html'><i class="fas fa-calendar-day fa-fw"></i> Our Events</a>
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class='nav-link' href='alumni.html'>Alumni</a>
+          </li>
+          <li class="nav-item">
+              <a class='nav-link' href='contact.html'>Contact</a>
+          </li>
+        </ul>
+      </div> 
+      <!-- <div style="margin-top: 20px;" class="collapse float-right navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav float-right mr-auto nav-menu">
+          <li class="active nav-item"><a href="index.html">Home</a></li>
+          <li class="dropdown nav-item ">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">About Us</a>
+            
+            <div style="color: black;" class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a style="color: black;" class="dropdown-item" href="#">Action</a>
+              <a style="color: black;" class="dropdown-item" href="#">Another action</a>
+ 
+              <a style="color: black;" class="dropdown-item" href="#">Something else here</a>
+            </div>
+            <!-- <ul>
+              <li><a href="#">Overview</a></li>
+              <!-- <li class="drop-down"><a href="#">Drop Down 2</a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
@@ -61,15 +115,22 @@
                   <li><a href="#">Deep Drop Down 4</a></li>
                   <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
+              </li> 
+              <li><a href="#">Mission and Vission</a></li>
+              <li><a href="#">Staff</a></li>
+              <li><a href="#">TARGETED STUDENTS</a></li>
+            </ul> 
           </li>
+          <li><a href="about.html">Campus</a></li>
+          <li><a href="services.html">Academics</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+      </div>  -->
+      </nav>
 
     </div>
   </header><!-- End Header -->
@@ -298,33 +359,43 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Site Map</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Campus</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Academics</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Competitions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Exchange Programs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Alumni</a></li>
+
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
+            <h4>Our Social Links</h4>
+            <!-- <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
+            </ul> -->
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bx-mail-send"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
+              9th District, Obour City <br>
+              Qalyubia, 11828 <br>
+              Egypt <br><br>
               <strong>Phone:</strong> +1 5589 55488 55<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
@@ -332,14 +403,9 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Moderna</h3>
+            <h3>About Us</h3>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
+            
           </div>
 
         </div>
@@ -347,15 +413,13 @@
     </div>
 
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Moderna</span></strong>. All Rights Reserved
+      <div class="copyright row">
+        <div class="col-sm-6">
+         Copyright &copy; <strong><span>STEM Obour</span></strong>. All Rights Reserved
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+<div class="col-sm-6">
+  Made By | STEM Obour Website Developers Team
+</div>
       </div>
     </div>
   </footer><!-- End Footer -->
