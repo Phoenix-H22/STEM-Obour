@@ -2369,10 +2369,17 @@ section {
   left: -9px;
 }
 .fired{
-  left: -25px;
+  left: -1.9rem;
   margin: 0;
   padding: 0;
   text-align: right;
   display: inline;
   position: absolute;
+}
+
+.roundeed{
+  border-radius: 90px;
+}
+.centerd{
+  text-align: center;
 }
