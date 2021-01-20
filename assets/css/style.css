@@ -13,11 +13,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
 body {
   font-family: 'Viga', sans-serif;
-    color: #444;
+    color: wheat;
+    background-color: #0d2735;
 }
 
 a {
-  color: #ffffff;
+  color: wheat;
 }
 
 a:hover {
@@ -28,6 +29,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: 'Teko', sans-serif;
       letter-spacing: 4px;
+      color: wheat;
 }
 
 /*--------------------------------------------------------------
@@ -41,8 +43,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #68A4C4;
-  color: #fff;
+  background: #00416d;
+  color: wheat;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -77,7 +79,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: #00334e;
   height: 113px;
   padding: 10px 0;
 }
@@ -126,7 +128,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: wheat;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 16px;
@@ -290,7 +292,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: wheat;
 }
 
 .mobile-nav-overly {
@@ -367,7 +369,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero h2 {
-  color: #fff;
+  color: wheat;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -378,7 +380,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: wheat;
 }
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
@@ -404,7 +406,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: wheat;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #68A4C4;
@@ -532,7 +534,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f3f8fa;
+  background-color: #00334e;
 }
 
 .section-title {
@@ -549,7 +551,7 @@ section {
 }
 
 .section-title h2::before {
-  content: '';
+
   position: absolute;
   display: block;
   width: 120px;
@@ -564,7 +566,7 @@ section {
   position: absolute;
   display: block;
   width: 40px;
-  height: 3px;
+  height: 4px;
   background: #68A4C4;
   bottom: 0;
   left: calc(50% - 20px);
@@ -631,11 +633,11 @@ section {
   position: relative;
   overflow: hidden;
   margin: 0  0 40px 0;
-  background: #fff;
+  background: #00334e;
   box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
   transition: all 0.3s ease-in-out;
   text-align: center;
-  border: 1px solid #fff;
+  border: 1px solid #00334e;
 }
 
 .services .icon {
@@ -747,7 +749,7 @@ section {
 }
 
 .why-us .icon-box:hover .icon {
-  background: #68A4C4;
+  background: #145374;
 }
 
 .why-us .icon-box:hover .icon i {
@@ -763,12 +765,12 @@ section {
 }
 
 .why-us .icon-box .title a {
-  color: #343a40;
+  color: white;
   transition: 0.3s;
 }
 
 .why-us .icon-box .title a:hover {
-  color: #68A4C4;
+  color: #145374;
 }
 
 .why-us .icon-box .description {
@@ -779,6 +781,7 @@ section {
 
 .why-us .video-box {
   position: relative;
+  background-color: #00334e;
 }
 
 .why-us .video-box img {
@@ -2188,7 +2191,7 @@ section {
 #footer {
   background: #0b212d;
   padding: 0 0 30px 0;
-  color: #fff;
+  color: wheat;
   font-size: 14px;
 }
 
@@ -2218,6 +2221,7 @@ section {
   border: 0;
   padding: 4px;
   width: calc(100% - 100px);
+  background-color: wheat;
 }
 
 #footer .footer-newsletter form input[type="submit"] {
@@ -2231,7 +2235,7 @@ section {
   padding: 0 20px;
   margin: 3px;
   background: #68A4C4;
-  color: #fff;
+  color: wheat;
   transition: 0.3s;
   border-radius: 50px;
 }
@@ -2265,7 +2269,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: 'Viga', sans-serif;
-  color: #fff;
+  color: wheat;
 }
 
 #footer .footer-top .social-links a {
@@ -2327,7 +2331,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: wheat;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2343,6 +2347,7 @@ section {
 
 #footer .footer-top .footer-contact p {
   line-height: 26px;
+  color: wheat;
 }
 
 #footer .copyright {
@@ -2382,4 +2387,7 @@ section {
 }
 .centerd{
   text-align: center;
+}
+.wheat{
+  background-color: wheat;
 }
