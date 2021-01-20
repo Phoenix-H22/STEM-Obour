@@ -663,7 +663,7 @@ section {
 }
 
 .services .title a {
-  color: #111;
+  color: white;
 }
 
 .services .description {
@@ -2394,4 +2394,9 @@ section {
 }
 .wheat{
   background-color: wheat;
+}
+
+.button{
+  border-radius: 90px;
+  color: wheat;
 }
