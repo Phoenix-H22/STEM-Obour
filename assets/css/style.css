@@ -1536,7 +1536,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #666;
+  color: whitesmoke;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1546,6 +1546,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: wheat;
 }
 
 .contact .php-email-form {
@@ -1608,6 +1609,7 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  background-color: wheat;
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
@@ -1626,7 +1628,7 @@ section {
   background: #68A4C4;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: wheat;
   transition: 0.4s;
 }
 
@@ -2199,6 +2201,7 @@ section {
 #footer .footer-newsletter {
   padding: 50px 0;
   background: #0d2735;
+  border-top: wheat solid;
 }
 
 #footer .footer-newsletter h4 {
@@ -2212,7 +2215,7 @@ section {
 
 #footer .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: wheat;
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
@@ -2247,7 +2250,7 @@ section {
 
 #footer .footer-top {
   background: #0d2735;
-  border-top: 1px solid #17455e;
+  border-top: solid wheat;
   
   padding: 60px 0 30px 0;
 }
