@@ -54,11 +54,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: absolute;
   top: 8px;
   left: 8px;
+  color: wheat;
 }
 
 .back-to-top:hover {
-  color: #fff;
-  background: #85b6cf;
+  color: wheat;
+  background: #0d7bb3;
   transition: background 0.2s ease-in-out;
 }
 
