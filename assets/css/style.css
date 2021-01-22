@@ -2416,8 +2416,10 @@ section {
 	/* margin: 50px auto; */
 	list-style: none;
   text-align: center;
+  align-items: center;
 }
 .tilesWrap li {
+  align-items: center;
 	display: inline-block;
 	width: 10%;
 	min-width: 200px;
@@ -2429,11 +2431,12 @@ section {
 	/* margin: 10px; */
 	font-family: 'helvetica', san-serif;
 	min-height: 25vh;
-	background: #00334e;
+	background: #000839;
 	border: 2px solid #252727;
-	text-align: right;
+	text-align: center;
 }
 .tilesWrap li h4 {
+  align-items: center;
 	font-size: 2rem;
 	margin: 0;
 	position: absolute;
@@ -2443,6 +2446,7 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .tilesWrap li h3 {
+  align-items: center;
 	font-size: 20px;
 	color: white;
 	margin-bottom: 5px;
@@ -2450,17 +2454,18 @@ section {
 .tilesWrap li p {
 	font-size: 16px;
 	line-height: 18px;
-	color: wheat;
+	color: white;
 	margin-top: 5px;
 }
 .tilesWrap li:after {
-	content: '';
+  align-items: center;
+	/* content: ''; */
 	position: absolute;
 	width: 40%;
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: rgba(255, 255, 255, 0.02);
+	background: white;
 }
 .tilesWrap li button {
 	background: transparent;
