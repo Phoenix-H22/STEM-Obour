@@ -61,9 +61,6 @@ const resolver = {
   } 
 }
 
-/* Some GLaDOS quotes from Portal 2 chapter 9: The Part Where He Kills You
- * Source: http://theportalwiki.com/wiki/GLaDOS_voice_lines#Chapter_9:_The_Part_Where_He_Kills_You
- */
 const strings = [
   'STEM Obour Was Founded In 2018 The first Aluminess, 2021 Aluminess, will graduate this year. May Allah be with them to make Us proud of them.'
 ];
@@ -74,7 +71,7 @@ const options = {
   // Initial position
   offset: 0,
   // Timeout between each random character
-  timeout: 15,
+  timeout: 5,
   // Number of random characters to show
   iterations: 10,
   // Random characters to pick from
