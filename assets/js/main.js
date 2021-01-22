@@ -185,3 +185,48 @@
   });
 
 })(jQuery);
+// Smooth scroll for the navigation menu and links with .scrollto classes
+$(document).on('click', '.nav-menu a, .scrollto', function(e) {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    e.preventDefault();
+    var target = $(this.hash);
+    if (target.length) {
+
+      var scrollto = target.offset().top;
+
+      $('html, body').animate({
+        scrollTop: scrollto
+      }, 1500, 'easeInOutExpo');
+
+      if ($(this).parents('.nav-menu, .mobile-nav').length) {
+        $('.nav-menu .active, .mobile-nav .active').removeClass('active');
+        $(this).closest('li').addClass('active');
+      }
+
+      if ($('body').hasClass('mobile-nav-active')) {
+        $('body').removeClass('mobile-nav-active');
+        $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+      }
+      return false;
+    }
+  }
+});
+
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml6 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 750,
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
