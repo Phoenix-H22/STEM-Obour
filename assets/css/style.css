@@ -2796,3 +2796,8 @@ background: linear-gradient(to right, #0ABFBC, #FC354C);
   font-weight: 300;
   text-transform: uppercase;
 }
+
+.blackk{
+  color: black;
+  filter: invert(100%);  
+}
