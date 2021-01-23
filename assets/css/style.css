@@ -2806,3 +2806,7 @@ background: linear-gradient(to right, #0ABFBC, #FC354C);
   color: black;
   filter: invert(100%);  
 }
+
+.Roudeeed{
+  border-radius: 20px;
+}
