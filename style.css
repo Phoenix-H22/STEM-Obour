@@ -4,6 +4,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+h2::before {
+
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: #68A4C4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
 body {
   font-family: 'Viga', sans-serif;
     color: wheat;
